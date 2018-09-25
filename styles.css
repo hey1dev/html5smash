@@ -1,0 +1,150 @@
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+body {
+	background: #f5f4ef;
+	font-family: 'Century Gothic', Arial, sans-serif;
+	color: #000305;
+	font-size: 14px;
+}
+
+a {
+	color: #C74451;
+	transition: all .4s ease-in;
+}
+
+a:hover,
+a:focus {
+	color: #fff;
+	background: #C74451;
+}
+
+.h1 {
+	font-size: 50px;
+}
+
+.h1 a {
+	color: #000503;
+	display: block;
+}
+
+.h1 a:hover {
+	color: #c74451;
+	background: transparent;
+}
+
+h1 span {
+	font-size: 18px;
+	display: block;
+}
+
+.section {
+	background: #fff;
+	border-radius: 10px;
+	/* padding: 20px; */
+	padding: 20px 20px 20px 20px;
+	margin-bottom: 20px;
+}
+
+.section h2 {
+	margin: 0;
+	color: #c74451;
+}
+
+.section h3 {
+	
+	margin: 5px 0;
+}
+
+.section h3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.section h3 a:hover {
+	color: #fff;
+}
+
+.section p {
+	margin: 0;
+}
+
+.article + .article {
+	margin: 20px 0 0 0;
+	padding: 20px 0 0 0;
+	border-top: 1px #eee solid;
+}
+
+.article h4 {
+	margin: 0;
+}
+
+.article h4 a{
+	text-decoration: none;
+}
+
+.article p {
+	margin: 5px 0;
+}
+
+.article time {
+	font-size: 16px;
+}
+
+aside h4 {
+	color: #c74451;
+	margin: 0;
+	font-size: 16px;
+
+}
+
+aside ul {
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+
+}
+
+aside ul a {
+	color: #000305;
+	text-decoration: none;
+	display: block;
+	border-bottom: 1px #eee solid;
+	padding: 5px;
+}
+
+.column {
+	display: inline-block;
+	width: 30%;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+
+.column--wide {
+	width: 70%;
+}
+
+
+.row {
+	font-size: 0;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
